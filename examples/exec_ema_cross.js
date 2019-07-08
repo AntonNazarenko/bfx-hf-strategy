@@ -4,7 +4,8 @@ process.env.DEBUG = '*'
 
 const { Candle } = require('bfx-api-node-models')
 const { SYMBOLS, TIME_FRAMES } = require('bfx-hf-util')
-const logTrades = require('../lib/debfx-hf-strategy-exec/node_modules/bfx-hf-strategy/lib/debug/log_tradesHFS = require('../')
+const logTrades = require('../lib/debug/log_trades')
+const HFS = require('../')
 
 const EMAStrategy = require('./ema_cross')
 const rawCandleData = require('./btc_candle_data.json')
