@@ -12,7 +12,7 @@ module.exports = ({
   name: 'ema_cross',
   symbol,
   tf,
-
+  // extract fees from bitfinex api
   indicators: {
     emaL: new EMA([100]),
     emaS: new EMA([20])
